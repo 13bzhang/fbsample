@@ -24,7 +24,7 @@ Targetting of individual strata occurs at the **Ad set** level. For each Ad set,
 
 2. Create a Facebook App and authorize it to manage the ads of your Facebook Page. Follow the directions outlined in [fbRads](https://github.com/cardcorp/fbRads/blob/master/README.md) to crate your Facebook App and connect with the OAuth token. 
 
-3. Draft [a post](https://www.facebook.com/business/learn/facebook-page-create-posts) for your Facebook Page that you will use as your ad. The post should contain a catchy image, a short description of your survey, and a link to your survey. Do not publish the post but instead save it as a draft. You will use this post as an Ad Creative. 
+3. Draft [a post](https://www.facebook.com/business/learn/facebook-page-create-posts) for your Facebook Page that you will use as your [Ad Creative](https://developers.facebook.com/docs/marketing-api/reference/ad-creative). The post should contain a catchy image, a short description of your survey, and a link to your survey. Do not publish the post but instead save it as a draft to be published later as part of your ad. 
 
 4. Use `fb_campaign` in `fbRads` to create a [Campaign](https://developers.facebook.com/docs/marketing-api/reference/ad-campaign-group) for your quota sample. All ads will be a part of this campaign. 
 
