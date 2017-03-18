@@ -1,5 +1,5 @@
 #' Create a Facebook ad for a strata
-#' @param fbacc \code{FB_Ad_account} object that identifies your Facebook Ad account.
+#' @param fbacc \code{FB_Ad_account} object that identifies your Facebook Ad account. Note this is not your Ad account number.
 #' @param strata_id character. Strata ID.
 #' @param adset_name character. Name of the Ad Set.
 #' @param optimization_goal character. Optimization goal.

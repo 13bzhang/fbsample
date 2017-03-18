@@ -14,7 +14,7 @@ batch_strata_ads(fbacc, strata_targeting, optimization_goal = c("NONE",
   wait_interval = 100, show_wait, ...)
 }
 \arguments{
-\item{fbacc}{\code{FB_Ad_account} object that identifies your Facebook Ad account.}
+\item{fbacc}{\code{FB_Ad_account} object that identifies your Facebook Ad account. Note this is not your Ad account number.}
 
 \item{strata_targeting}{list. Information about each strata that you plan to target.}
 

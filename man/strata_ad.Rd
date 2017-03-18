@@ -17,7 +17,7 @@ strata_ad(fbacc, strata_id, adset_name, ad_name, optimization_goal = c("NONE",
   ...)
 }
 \arguments{
-\item{fbacc}{\code{FB_Ad_account} object that identifies your Facebook Ad account.}
+\item{fbacc}{\code{FB_Ad_account} object that identifies your Facebook Ad account. Note this is not your Ad account number.}
 
 \item{strata_id}{character. Strata ID.}
 

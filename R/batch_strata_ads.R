@@ -1,5 +1,5 @@
 #' Create Facebook ads for a batch of strata
-#' @param fbacc \code{FB_Ad_account} object that identifies your Facebook Ad account.
+#' @param fbacc \code{FB_Ad_account} object that identifies your Facebook Ad account. Note this is not your Ad account number.
 #' @param strata_targeting list. Information about each strata that you plan to target.
 #' @param optimization_goal character. Optimization goal.
 #' @param billing_event character. The billing event.
