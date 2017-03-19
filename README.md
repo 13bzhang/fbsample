@@ -10,6 +10,8 @@ This R package makes it easier for one to conduct quota sampling via Facebook ad
 
 3/18/2017: I added four helpful datasets in the `data` folder that include the ids and keys for ad targets. Now you can easily look up targets for level of education, ethnicity (US), politics (US), and US states/regions.
 
+3/19/2017: Facebook as removed `ethnic_affinity` as an ad target category after receiving negative press. But you can still recruit people by ethnic affinity using the `behavior` category. I removed `ethnic_affinity` as a parameter from the function `create_target` to reflect this change. To sample white respondents, you would need to exclude all the minority ethnic affinity groups. I am providing this information for social scientific purposes only. Don't use the functionality for racist purposes! 
+
 -----------------------------
 
 ## In a nutshell
