@@ -57,7 +57,7 @@ create_target <-
         targets$genders = list(genders)
       }
       if (!is.null(education_statuses)) {
-        targets$education_statuses = list(education_statuses)
+        targets$education_statuses = as.integer(education_statuses)
       }
       if (!is.null(ethnic_affinity)) {
         targets$ethnic_affinity = data.frame(id = ethnic_affinity)
