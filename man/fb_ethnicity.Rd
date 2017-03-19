@@ -7,7 +7,7 @@
 \format{A data frame with six variables including the ethnic affinity \code{id} and
 \code{description}, along with metadata from the API Targeting Search results.}
 \usage{
-fb_ethnicity
+data(fb_ethnicity)
 }
 \description{
 A dataset that contains the ids for targeting specific ethnic groups in the U.S.

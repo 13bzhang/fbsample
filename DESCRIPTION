@@ -3,11 +3,11 @@ Type: Package
 Title: Quota Sampling Using Facebook Advertisements
 Version: 0.1
 Date: 2017-01-07
-Author: Baobao zhang
+Author: Baobao Zhang
 Maintainer: Baobao Zhang <baobao.zhang@yale.edu>
 Description: A tool to design and manage quota sampling using Facebook Advertisements.
 License: MIT License
-LazyData: TRUE
+LazyData: true
 Imports:
     fbRads,
     RCurl,

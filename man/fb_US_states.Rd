@@ -7,7 +7,7 @@
 \format{A dataset with 5 variables including the \code{key} for each of the 50 U.S.
 states along with its corresponding Census region.}
 \usage{
-fb_US_states
+data(fb_US_states)
 }
 \description{
 A data set that contains the keys for targeting states or regions within the U.S.

@@ -6,7 +6,7 @@
 \title{Education Level}
 \format{A dataset with two variables: \code{key} and \code{description}.}
 \usage{
-fb_edu_level
+data(fb_edu_level)
 }
 \description{
 A dataset that contains the keys for targeting specific levels of education.

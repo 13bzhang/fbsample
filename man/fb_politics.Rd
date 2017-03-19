@@ -8,7 +8,7 @@
 ideologies/behaviors \code{id} and \code{description}, along with metadata
 from the API Targeting Search results.}
 \usage{
-fb_politics
+data(fb_politics)
 }
 \description{
 A data set that contains the ids for targeting specific political ideologies
