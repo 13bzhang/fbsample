@@ -5,9 +5,8 @@
 #' @param age_max integer. Maximum age. If used, must be 65 or lower.
 #' @param genders integer. 1=male, 2=female.
 #' @param education_statuses integer. Vector of Facebook IDs to target based on education level. See \url{https://developers.facebook.com/docs/marketing-api/targeting-specs/v2.8}.
-#' @param ethnic_affinity integer. Vector of Facebook IDs for each ethnic group.
 #' @param interests list. A list of Facebook IDs for interests.
-#' @param behaviors list. A list of Facebook IDs for behaviors.
+#' @param behaviors list. A list of Facebook IDs for behaviors. Note that \code{ethnic_affinity} is now under the \code{behavior} category.
 #' @param exclusions list. A list of Facebook IDs for excluding certain demographics.
 #' @param other_demographics list. A list of Facebook IDs for other demographic targeting parameters.
 #' @param bid_amount integer. The amount you set for bid and budget are at ad account currencies minimum denomination level. For example cents for US dollars.
@@ -54,13 +53,10 @@ create_target <-
         targets$age_max = unbox(age_max)
       }
       if (!is.null(genders)) {
-        targets$genders = list(genders)
+        targets$genders = list(as.integer(genders))
       }
       if (!is.null(education_statuses)) {
         targets$education_statuses = as.integer(education_statuses)
-      }
-      if (!is.null(ethnic_affinity)) {
-        targets$ethnic_affinity = data.frame(id = ethnic_affinity)
       }
       if (!is.null(interests)) {
         targets$interests = interests
