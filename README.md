@@ -22,7 +22,7 @@ Facebook allows advertisers to target audiences by demographic groups. Using the
 
 Facebook ad campaigns have a three-level structure. For the purposes of quota sampling, each sampling project is a **Campaign**. The Campaign objective determines how you pay to recruit respondents. For instance, you can pay for per completed survey using the [conversion objective](https://www.facebook.com/business/learn/facebook-create-ad-website-conversions) or you can pay for clicks to your survey link. 
 
-Targetting of individual strata occurs at the **Ad set** level. For each Ad set, you input the demographics of the strata and how much you are willing to spend to advertise to that strata. Finally, for each **Ad set**, you create an **Ad** that uses an **Ad Creative** (ad text, image, and survey link) to recruit respondents. 
+Targeting of individual strata occurs at the **Ad set** level. For each Ad set, you input the demographics of the strata and how much you are willing to spend to advertise to that strata. Finally, for each **Ad set**, you create an **Ad** that uses an **Ad Creative** (ad text, image, and survey link) to recruit respondents. 
 
 ![](https://static1.squarespace.com/static/56c4d0b94d088e1c92d242af/t/5723e35e746fb941a5c16fdb/1461969760920/?format=750w)
 
