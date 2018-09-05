@@ -23,7 +23,7 @@ create_target(strata_id, geo_locations, age_min = NULL, age_max = NULL,
 
 \item{genders}{integer. 1=male, 2=female.}
 
-\item{education_statuses}{integer. Vector of Facebook IDs to target based on education level. See \url{https://developers.facebook.com/docs/marketing-api/targeting-specs/v2.8}.}
+\item{education_statuses}{integer. Vector of Facebook IDs to target based on education level. See \url{https://developers.facebook.com/docs/marketing-api/targeting-specs/}.}
 
 \item{ethnic_affinity}{integer. Vector of Facebook IDs for each ethnic group.}
 

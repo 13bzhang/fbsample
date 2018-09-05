@@ -7,7 +7,6 @@
 #' @param bid_amount integer. The amount you set for bid and budget are at ad account currencies minimum denomination level. For example cents for US dollars.
 #' @param promoted_object list. See at \url{https://developers.facebook.com/docs/marketing-api/reference/ad-campaign/promoted-object}.
 #' @param campaign_id character. Parent Ad Campaign ID.
-#' @param is_autobid logical. If \code{TRUE}, bidding amount is automated and you do not need to include a \code{bid_amount}.
 #' @param daily_budget integer. The amount you set for bid and budget are at ad account currencies minimum denomination level. For example cents for US dollars.
 #' @param end_time UTC UNIX timestamp.
 #' @param start_time UTC UNIX timestamp.
@@ -56,7 +55,6 @@ strata_ad <- function(fbacc,
                       bid_amount,
                       promoted_object,
                       campaign_id,
-                      is_autobid = FALSE,
                       status = c('ACTIVE', 'PAUSED', 'ARCHIVED', 'DELETED'),
                       daily_budget,
                       end_time = NULL,
@@ -74,7 +72,6 @@ strata_ad <- function(fbacc,
       optimization_goal = optimization_goal,
       billing_event = billing_event,
       bid_amount = bid_amount,
-      is_autobid = is_autobid,
       campaign_id = campaign_id,
       status = adset_status,
       daily_budget = daily_budget,
